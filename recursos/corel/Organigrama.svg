@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="841.88977pt"
+   height="595.27557pt"
+   id="svg44335"
+   viewBox="0 0 841.88977 595.27557"
+   sodipodi:docname="Organigrama.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44339" />
+  <sodipodi:namedview
+     id="namedview44337"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.67405756"
+     inkscape:cx="560.78297"
+     inkscape:cy="397.59216"
+     inkscape:window-width="1360"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44335"
+     inkscape:document-units="pt" />
+  <path
+     d="m 18.6139,13.1613 v 568.953 H 823.2761 V 13.1613 Z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44091" />
+  <g
+     id="Layer1000">
+    <g
+       id="Layer1001">
+      <text
+         x="80.400803"
+         y="255.1382"
+         id="text44095"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44093">Usuário 2</tspan></text>
+      <path
+         d="m 51.2746,251.0142 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 H 63.5284 q -12.2538,0 -12.2538,12.2538 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44097" />
+    </g>
+    <g
+       id="Layer1002">
+      <text
+         x="79.482903"
+         y="302.7645"
+         id="text44102"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44100">Usuário N</tspan></text>
+      <path
+         d="m 51.2746,298.6406 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 H 63.5284 q -12.2538,0 -12.2538,12.2538 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44104" />
+    </g>
+    <g
+       id="Layer1003">
+      <text
+         x="80.852303"
+         y="207.5119"
+         id="text44109"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44107">Usuário 1</tspan></text>
+      <path
+         d="m 51.2746,203.3879 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 H 63.5284 q -12.2538,0 -12.2538,12.2538 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44111" />
+    </g>
+  </g>
+  <g
+     id="Layer1004">
+    <g
+       id="Layer1005">
+      <text
+         x="545.71582"
+         y="254.95711"
+         id="text44117"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44115">OPLOGIC</tspan></text>
+      <path
+         d="m 515.7126,251.0146 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 h -85.7766 q -12.2538,0 -12.2538,12.2538 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44119" />
+    </g>
+    <g
+       id="Layer1006">
+      <g
+         id="Layer1007">
+        <text
+           x="675.6236"
+           y="293.38501"
+           id="text44124"><tspan
+             font-family="'Swis721 Blk BT'"
+             font-size="10.5px"
+             fill="#1b1918"
+             id="tspan44122">ADM</tspan></text>
+        <path
+           d="m 633.2989,289.6553 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 h -85.7766 q -12.2538,0 -12.2538,12.2538 z"
+           style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+           id="path44126" />
+      </g>
+      <g
+         id="Layer1008">
+        <text
+           x="661.32452"
+           y="216.3008"
+           id="text44131"><tspan
+             font-family="'Swis721 Blk BT'"
+             font-size="10.5px"
+             fill="#1b1918"
+             id="tspan44129">Sorteador</tspan></text>
+        <path
+           d="m 633.2989,212.3737 v 0 q 0,12.2538 12.2538,12.2538 h 85.7766 q 12.2538,0 12.2538,-12.2538 v 0 q 0,-12.2538 -12.2538,-12.2538 h -85.7766 q -12.2538,0 -12.2538,12.2538 z"
+           style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+           id="path44133" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="Layer1009">
+    <g
+       id="Layer1010">
+      <text
+         x="219.6414"
+         y="169.6501"
+         id="text44140"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44138">Cartela 1</tspan></text>
+      <path
+         d="m 188.7152,153.4536 v 24.5076 h 110.2843 v -24.5076 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44142" />
+    </g>
+    <g
+       id="Layer1011">
+      <text
+         x="219.19009"
+         y="203.7728"
+         id="text44147"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44145">Cartela 2</tspan></text>
+      <path
+         d="m 188.7152,187.5763 v 24.5076 h 110.2843 v -24.5076 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44149" />
+    </g>
+    <g
+       id="Layer1012">
+      <text
+         x="219.1226"
+         y="237.89571"
+         id="text44154"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44152">Cartela 3</tspan></text>
+      <path
+         d="m 188.7152,221.699 v 24.5076 H 298.9995 V 221.699 Z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44156" />
+    </g>
+    <g
+       id="Layer1013">
+      <text
+         x="219.1487"
+         y="272.01831"
+         id="text44161"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44159">Cartela 4</tspan></text>
+      <path
+         d="m 188.7152,255.8217 v 24.5076 h 110.2843 v -24.5076 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44163" />
+    </g>
+    <g
+       id="Layer1014">
+      <text
+         x="218.272"
+         y="306.1358"
+         id="text44168"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44166">Cartela N</tspan></text>
+      <path
+         d="m 188.7152,289.9443 v 24.5076 h 110.2843 v -24.5076 z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44170" />
+    </g>
+    <g
+       id="Layer1015">
+      <text
+         x="207.70869"
+         y="340.26349"
+         id="text44175"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44173">Cartela N + 1</tspan></text>
+      <path
+         d="m 188.7152,324.067 v 24.5076 H 298.9995 V 324.067 Z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44177" />
+    </g>
+  </g>
+  <g
+     id="Layer1016">
+    <text
+       x="217.43179"
+       y="90.429199"
+       id="text44183"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44181">Tabela de</tspan></text>
+    <text
+       x="219.8761"
+       y="102.9518"
+       id="text44187"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44185">Usuários</tspan></text>
+    <path
+       d="m 194.842,63.8126 v 58.0995 q 0,19.9655 19.9655,19.9655 h 58.0995 q 19.9654,0 19.9654,-19.9655 V 63.8126 q 0,-19.9655 -19.9654,-19.9655 h -58.0995 q -19.9655,0 -19.9655,19.9655 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44189" />
+  </g>
+  <g
+     id="Layer1017">
+    <text
+       x="79.990898"
+       y="406.73279"
+       id="text44194"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44192">Tabela de</tspan></text>
+    <text
+       x="82.608902"
+       y="419.2659"
+       id="text44198"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44196">CardCod</tspan></text>
+    <path
+       d="m 57.4014,380.1161 v 58.0995 q 0,19.9655 19.9655,19.9655 h 58.0994 q 19.9655,0 19.9655,-19.9655 v -58.0995 q 0,-19.9654 -19.9655,-19.9654 H 77.3669 q -19.9655,0 -19.9655,19.9654 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44200" />
+  </g>
+  <g
+     id="Layer1018">
+    <g
+       id="Layer1019">
+      <text
+         x="217.4315"
+         y="406.72739"
+         id="text44205"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44203">Tabela de</tspan></text>
+      <text
+         x="221.2245"
+         y="419.2605"
+         id="text44209"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44207">Cartelas</tspan></text>
+    </g>
+    <path
+       d="m 194.842,380.1161 v 58.0995 q 0,19.9655 19.9655,19.9655 h 58.0995 q 19.9654,0 19.9654,-19.9655 v -58.0995 q 0,-19.9654 -19.9654,-19.9654 h -58.0995 q -19.9655,0 -19.9655,19.9654 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44212" />
+  </g>
+  <g
+     id="Layer1020">
+    <g
+       id="Layer1021">
+      <text
+         x="343.31409"
+         y="247.3311"
+         id="text44217"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44215">Terminal de</tspan></text>
+      <text
+         x="344.77969"
+         y="262.54059"
+         id="text44221"><tspan
+           font-family="'Swis721 Blk BT'"
+           font-size="10.5px"
+           fill="#1b1918"
+           id="tspan44219">Resultados</tspan></text>
+    </g>
+    <path
+       d="m 326.2334,201.9991 v 98.0305 h 98.0304 v -98.0305 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44224" />
+  </g>
+  <g
+     id="Layer1022">
+    <text
+       x="353.30399"
+       y="413.10849"
+       id="text44229"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44227">Consola</tspan></text>
+    <path
+       d="m 326.2334,360.1507 v 98.0304 h 98.0304 v -98.0304 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44231" />
+  </g>
+  <g
+     id="Layer1023">
+    <text
+       x="353.12909"
+       y="57.051498"
+       id="text44236"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44234">Display</tspan></text>
+    <text
+       x="334.83691"
+       y="76.1689"
+       id="text44240"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44238">Letra</tspan></text>
+    <text
+       x="386.44501"
+       y="77.206398"
+       id="text44244"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="10.5px"
+         fill="#1b1918"
+         id="tspan44242">Bola</tspan></text>
+    <path
+       d="m 322.9097,43.8471 v 98.0305 h 98.0304 V 43.8471 Z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44246" />
+    <path
+       d="m 322.9097,62.4847 h 98.0304"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44248" />
+    <path
+       d="m 322.9097,80.6407 h 98.0304"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44250" />
+    <path
+       d="M 371.9251,141.8776 V 62.4847"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44252" />
+    <text
+       x="338.7359"
+       y="122.0899"
+       id="text44256"><tspan
+         font-family="Arial"
+         font-size="35px"
+         fill="#1b1918"
+         id="tspan44254">#</tspan></text>
+    <g
+       id="Layer1024">
+      <text
+         x="385.62259"
+         y="119.6476"
+         id="text44260"><tspan
+           font-family="Arial"
+           font-size="20.5px"
+           fill="#1b1918"
+           id="tspan44258">$$</tspan></text>
+      <path
+         d="M 396.24,91.585 A 18.9327,18.9327 0 0 1 415.1727,110.5178 18.9327,18.9327 0 1 1 396.24,91.585 Z"
+         style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path44262" />
+    </g>
+  </g>
+  <path
+     d="M 823.2761,486.8589 H 18.614"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44266" />
+  <path
+     d="M 26.4861,21.6652 V 477.8583 H 815.4034 V 21.6652 Z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44268" />
+  <path
+     d="M 815.4037,576.4544 V 491.9695 H 486.1548 v 84.4849 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44270" />
+  <path
+     d="m 486.1548,491.9695 v 32.2849 h 329.2489 v -32.2849 z"
+     style="fill:#009035;fill-rule:evenodd"
+     id="path44272" />
+  <text
+     x="492.59109"
+     y="518.0238"
+     id="text44276"><tspan
+       font-family="Arial"
+       font-size="16px"
+       fill="#ffffff"
+       id="tspan44274">Bingo Express - Organigrama</tspan></text>
+  <text
+     x="489.33521"
+     y="535.45862"
+     id="text44280"><tspan
+       font-family="Arial"
+       font-size="8px"
+       fill="#000200"
+       id="tspan44278">Programador</tspan></text>
+  <text
+     x="726.04492"
+     y="533.70477"
+     id="text44284"><tspan
+       font-family="Arial"
+       font-size="8px"
+       fill="#000200"
+       id="tspan44282">DATA</tspan></text>
+  <text
+     x="489.33521"
+     y="558.57458"
+     id="text44288"><tspan
+       font-family="Arial"
+       font-size="8px"
+       fill="#000200"
+       id="tspan44286">Versão</tspan></text>
+  <text
+     x="726.04492"
+     y="559.03241"
+     id="text44292"><tspan
+       font-family="Arial"
+       font-size="8px"
+       fill="#000200"
+       id="tspan44290">Folha</tspan></text>
+  <path
+     d="m 486.1548,524.2544 v 26.1 h 329.2489 v -26.1 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44294" />
+  <path
+     d="m 486.1548,550.3544 v 26.1 h 329.2489 v -26.1 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44296" />
+  <text
+     x="498.78571"
+     y="545.70471"
+     id="text44300"><tspan
+       font-family="'BankGothic Lt BT'"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan44298">Clóvis Peres Falcão</tspan></text>
+  <text
+     x="731.64331"
+     y="545.70471"
+     id="text44304"><tspan
+       font-family="'BankGothic Lt BT'"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan44302">07/03/2020</tspan></text>
+  <text
+     x="498.78571"
+     y="571.50513"
+     id="text44308"><tspan
+       font-family="'BankGothic Lt BT'"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan44306">0.0.1</tspan></text>
+  <text
+     x="763.63879"
+     y="572.17749"
+     id="text44312"><tspan
+       font-family="'BankGothic Lt BT'"
+       font-size="28px"
+       fill="#1b1918"
+       id="tspan44310">1/5</tspan></text>
+  <path
+     d="m 721.4893,524.2544 v 52.2"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44314" />
+  <path
+     d="m 558.5635,550.3544 v 26.1"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44316" />
+  <path
+     d="m -174.8232,277.1128 v 0 q 0,14.1733 14.1732,14.1733 h 99.2126 q 14.1732,0 14.1732,-14.1733 v 0 q 0,-14.1732 -14.1732,-14.1732 H -160.65 q -14.1732,0 -14.1732,14.1732 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44318" />
+  <path
+     d="m -174.8232,216.8834 v 28.3465 h 127.559 v -28.3465 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44320" />
+  <path
+     d="M -167.7368,308.9959 V 422.3818 H -54.3509 V 308.9959 Z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path44322" />
+  <g
+     id="Layer1025">
+    <text
+       x="-141.60899"
+       y="139.6667"
+       id="text44326"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan44324">Tabela de</tspan></text>
+    <text
+       x="-138.5807"
+       y="154.1628"
+       id="text44330"><tspan
+         font-family="'Swis721 Blk BT'"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan44328">CardCod</tspan></text>
+    <path
+       d="m -167.7368,108.8809 v 67.2001 q 0,23.0928 23.0929,23.0928 h 67.2001 q 23.0929,0 23.0929,-23.0928 v -67.2001 q 0,-23.0929 -23.0929,-23.0929 h -67.2001 q -23.0929,0 -23.0929,23.0929 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path44332" />
+  </g>
+</svg>

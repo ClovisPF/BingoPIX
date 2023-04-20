@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8e8ba"
+    tools:context=".AddClienteActivity">
+
+    <EditText
+        android:id="@+id/edtCel"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:background="#87D989"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:maxLength="9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Informe seu CPF - somente números"
+        android:textColor="#167616"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtNome"
+        app:layout_constraintStart_toStartOf="@+id/edtNome"
+        app:layout_constraintTop_toBottomOf="@+id/edtNome" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Por favor, Informe seu Nome completo"
+        android:textColor="#167616"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCel" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="Cadastrar"
+        android:text="Criar Nova Conta"
+        android:textAllCaps="false"
+        android:textColor="#167616"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnCancelar" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="2020 - Todos os direitos reservados. By Clóvis P Falcão."
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barra_001" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="Finalizer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_close" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:background="#87D989"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName|textCapSentences|textCapCharacters"
+        android:maxLength="60"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CheckBoxOnClick"
+        android:text="Declaro ter 18 anos de idade ou mais."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="Ao preencher este formulário, você será adicionado(a) ao Banco de Dados da Plataforma Bingo Express  - Uma rede de dados particular e exclusivamente Online para Jogos de Bingo."
+        android:textColor="#167616"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtCPF"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:background="#87D989"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="numberSigned|number|text"
+        android:maxLength="11"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="E-mail"
+        android:textColor="#167616"
+        app:layout_constraintEnd_toEndOf="@+id/edtCPF"
+        app:layout_constraintStart_toStartOf="@+id/edtCPF"
+        app:layout_constraintTop_toBottomOf="@+id/edtCPF" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:background="#87D989"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:maxLength="60"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Senha"
+        android:textColor="#167616"
+        app:layout_constraintEnd_toStartOf="@+id/edtSenha"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:background="#87D989"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmail"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btnContingente"
+        android:layout_width="32dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#87D989"
+        android:text="0"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscrição Nº"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnContingente"
+        app:layout_constraintEnd_toStartOf="@+id/btnContingente"
+        app:layout_constraintTop_toTopOf="@+id/btnContingente" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Número do Celular - somente números"
+        android:textColor="#167616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Finalizer"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        android:textColor="#167616"
+        app:layout_constraintEnd_toStartOf="@+id/btnCadastrar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnCadastrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

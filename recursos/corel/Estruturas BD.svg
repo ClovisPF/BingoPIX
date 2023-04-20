@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="595.27557pt"
+   height="841.88977pt"
+   id="svg23580"
+   viewBox="0 0 595.27557 841.88977"
+   sodipodi:docname="Estruturas BD.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23584" />
+  <sodipodi:namedview
+     id="namedview23582"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.47660634"
+     inkscape:cx="396.55369"
+     inkscape:cy="562.30893"
+     inkscape:window-width="1360"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23580"
+     inkscape:document-units="pt" />
+  <g
+     id="Layer1000">
+    <path
+       d="M 213.4194,36.4779 V 59.1551 H 355.1517 V 36.4779 Z"
+       style="fill:#f5b1b5;fill-rule:evenodd"
+       id="path22994" />
+    <text
+       x="227.4259"
+       y="53.450401"
+       id="text22998"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan22996">/Sorteios/50P/Config</tspan></text>
+    <text
+       x="252.73621"
+       y="96.356697"
+       id="text23002"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23000">arrecadados</tspan></text>
+    <text
+       x="252.68629"
+       y="121.3101"
+       id="text23006"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23004">ganhadores</tspan></text>
+    <text
+       x="253.09621"
+       y="143.7435"
+       id="text23010"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23008">idKey</tspan></text>
+    <text
+       x="253.2283"
+       y="166.1769"
+       id="text23014"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23012">Participantes</tspan></text>
+    <text
+       x="252.6761"
+       y="186.3544"
+       id="text23018"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23016">status</tspan></text>
+    <text
+       x="252.7002"
+       y="208.91991"
+       id="text23022"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23020">obs</tspan></text>
+  </g>
+  <path
+     d="m 191.5807,442.715 v 22.6771 H 333.3131 V 442.715 Z"
+     style="fill:#84756f;fill-rule:evenodd"
+     id="path23025" />
+  <text
+     x="205.5872"
+     y="459.68741"
+     id="text23029"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#ffffff"
+       id="tspan23027">/Config</tspan></text>
+  <text
+     x="230.89751"
+     y="502.59369"
+     id="text23033"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23031">ativos</tspan></text>
+  <text
+     x="230.9454"
+     y="527.54712"
+     id="text23037"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23035">contigente</tspan></text>
+  <text
+     x="230.8374"
+     y="547.60449"
+     id="text23041"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23039">semCartela</tspan></text>
+  <text
+     x="230.8374"
+     y="570.16998"
+     id="text23047"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23043">sem</tspan><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23045">Saldo</tspan></text>
+  <text
+     x="230.65739"
+     y="592.60339"
+     id="text23051"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23049">totalCartelas</tspan></text>
+  <g
+     id="Layer1001">
+    <path
+       d="M 389.683,36.4779 V 59.1551 H 531.4156 V 36.4779 Z"
+       style="fill:#f07c00;fill-rule:evenodd"
+       id="path23053" />
+    <text
+       x="416.03271"
+       y="53.450401"
+       id="text23057"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23055">/Sorteios/Config</tspan></text>
+  </g>
+  <text
+     x="429.76199"
+     y="96.356697"
+     id="text23062"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23060">arrecadados</tspan></text>
+  <text
+     x="429.76199"
+     y="118.9341"
+     id="text23066"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23064">bolasSorteadas</tspan></text>
+  <text
+     x="429.76199"
+     y="141.35561"
+     id="text23070"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23068">bonus</tspan></text>
+  <text
+     x="429.76199"
+     y="166.3089"
+     id="text23074"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23072">ganhadores</tspan></text>
+  <text
+     x="429.76199"
+     y="188.6102"
+     id="text23078"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23076">participantes</tspan></text>
+  <text
+     x="429.76199"
+     y="208.91991"
+     id="text23082"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23080">titulo</tspan></text>
+  <text
+     x="429.76199"
+     y="231.3652"
+     id="text23086"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23084">totalCartelas</tspan></text>
+  <text
+     x="429.76199"
+     y="253.93069"
+     id="text23090"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23088">valorCartela</tspan></text>
+  <text
+     x="429.76199"
+     y="277.52829"
+     id="text23094"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23092">valorPremio</tspan></text>
+  <g
+     id="Layer1002">
+    <path
+       d="M 30.5668,38.2966 V 60.9738 H 172.2989 V 38.2966 Z"
+       style="fill:#aad7b9;fill-rule:evenodd"
+       id="path23096" />
+    <text
+       x="56.916302"
+       y="55.2691"
+       id="text23100"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23098">/Sorteios/Config</tspan></text>
+    <text
+       x="82.8731"
+       y="100.5633"
+       id="text23104"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23102">P50idKey</tspan></text>
+    <text
+       x="82.8731"
+       y="122.9967"
+       id="text23108"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23106">P50Participantes</tspan></text>
+    <text
+       x="82.8731"
+       y="145.56219"
+       id="text23112"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23110">P100idKey</tspan></text>
+    <text
+       x="82.8731"
+       y="167.99561"
+       id="text23116"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23114">P100Participantes</tspan></text>
+    <text
+       x="82.8731"
+       y="190.561"
+       id="text23120"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23118">P250idKey</tspan></text>
+    <text
+       x="82.8731"
+       y="212.9944"
+       id="text23124"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23122">P250Participantes</tspan></text>
+    <text
+       x="82.8731"
+       y="235.55991"
+       id="text23128"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23126">P500idKey</tspan></text>
+    <text
+       x="82.8731"
+       y="257.99329"
+       id="text23132"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23130">P500Participantes</tspan></text>
+    <text
+       x="82.8731"
+       y="279.34698"
+       id="text23136"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23134">cartelasInscritas</tspan></text>
+    <text
+       x="82.8731"
+       y="303.04031"
+       id="text23140"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23138">ganhadores</tspan></text>
+    <text
+       x="82.8731"
+       y="391.93311"
+       id="text23144"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23142">obs</tspan></text>
+    <text
+       x="82.8731"
+       y="325.47369"
+       id="text23148"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23146">participantes</tspan></text>
+    <text
+       x="82.8731"
+       y="369.33871"
+       id="text23152"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23150">status</tspan></text>
+    <text
+       x="82.8731"
+       y="346.83929"
+       id="text23156"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23154">arrecadado</tspan></text>
+  </g>
+  <g
+     id="Layer1003">
+    <path
+       d="m 28.4054,442.715 v 22.6771 H 170.1375 V 442.715 Z"
+       style="fill:#102a83;fill-rule:evenodd"
+       id="path23159" />
+    <text
+       x="46.572899"
+       y="459.68741"
+       id="text23163"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#ffffff"
+         id="tspan23161">/Clientes/Registros</tspan></text>
+    <text
+       x="80.267502"
+       y="502.59369"
+       id="text23167"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23165">cartelas</tspan></text>
+    <text
+       x="80.267502"
+       y="527.41498"
+       id="text23171"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23169">cpf</tspan></text>
+    <text
+       x="80.183601"
+       y="547.59259"
+       id="text23175"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23173">dataIn</tspan></text>
+    <text
+       x="80.231499"
+       y="570.15808"
+       id="text23179"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23177">email</tspan></text>
+    <text
+       x="80.579597"
+       y="592.60339"
+       id="text23183"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23181">in100P</tspan></text>
+    <text
+       x="80.579597"
+       y="615.16888"
+       id="text23187"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23185">in250P</tspan></text>
+    <text
+       x="80.579597"
+       y="637.60217"
+       id="text23191"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23189">in500P</tspan></text>
+    <text
+       x="80.579597"
+       y="660.16772"
+       id="text23197"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23193">in50</tspan><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23195">P</tspan></text>
+    <text
+       x="81.023804"
+       y="683.76532"
+       id="text23201"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23199">nome</tspan></text>
+    <text
+       x="80.7015"
+       y="705.0708"
+       id="text23205"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23203">saldo</tspan></text>
+    <text
+       x="80.687599"
+       y="796.3515"
+       id="text23209"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23207">status</tspan></text>
+    <text
+       x="80.291603"
+       y="727.63629"
+       id="text23213"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23211">score</tspan></text>
+    <text
+       x="80.7117"
+       y="773.75708"
+       id="text23217"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23215">sorteios</tspan></text>
+    <text
+       x="80.651604"
+       y="751.25763"
+       id="text23221"><tspan
+         font-family="Arial"
+         font-size="12px"
+         fill="#1b1918"
+         id="tspan23219">senha</tspan></text>
+  </g>
+  <path
+     d="m 365.1287,305.7494 v 22.6772 H 572.52 v -22.6772 z"
+     style="fill:#102a83;fill-rule:evenodd"
+     id="path23224" />
+  <text
+     x="424.53922"
+     y="323.49429"
+     id="text23228"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#ffffff"
+       id="tspan23226">Classes do App</tspan></text>
+  <text
+     x="407.00641"
+     y="369.1922"
+     id="text23232"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23230">AddClienteActivity</tspan></text>
+  <text
+     x="407.00641"
+     y="390.81339"
+     id="text23236"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23234">AdmActivity</tspan></text>
+  <text
+     x="407.00641"
+     y="414.54651"
+     id="text23240"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23238">ClienteActivity</tspan></text>
+  <text
+     x="407.00641"
+     y="434.84769"
+     id="text23244"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23242">EditorCartela</tspan></text>
+  <text
+     x="407.00641"
+     y="459.91299"
+     id="text23248"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23246">MainActivity</tspan></text>
+  <text
+     x="407.00641"
+     y="480.2142"
+     id="text23252"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23250">TBDCartela</tspan></text>
+  <text
+     x="407.00641"
+     y="502.89139"
+     id="text23256"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23254">TCartela</tspan></text>
+  <text
+     x="407.00641"
+     y="527.94452"
+     id="text23260"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23258">TCartelaPlayer</tspan></text>
+  <text
+     x="407.00641"
+     y="547.11749"
+     id="text23264"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23262">TCliente</tspan></text>
+  <text
+     x="407.00641"
+     y="573.28668"
+     id="text23268"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23266">TConfigClietes</tspan></text>
+  <text
+     x="407.00641"
+     y="661.51251"
+     id="text23272"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23270">TLinha</tspan></text>
+  <text
+     x="407.00641"
+     y="686.57751"
+     id="text23276"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23274">TRegClientes</tspan></text>
+  <text
+     x="407.00641"
+     y="706.87872"
+     id="text23280"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23278">TSorteio</tspan></text>
+  <text
+     x="407.00641"
+     y="729.54401"
+     id="text23284"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23282">TTabuleiro</tspan></text>
+  <text
+     x="407.00641"
+     y="594.84778"
+     id="text23288"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23286">TConfigSorteio</tspan></text>
+  <text
+     x="407.00641"
+     y="641.31818"
+     id="text23292"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23290">TJogador</tspan></text>
+  <text
+     x="407.00641"
+     y="618.64099"
+     id="text23296"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23294">TConfigSorteios</tspan></text>
+  <g
+     id="Layer1004">
+    <path
+       d="m 377.0796,328.4266 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23298" />
+    <path
+       d="M 398.5795,351.1037 V 328.4266"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23300" />
+  </g>
+  <g
+     id="Layer1005">
+    <path
+       d="m 377.0796,351.1037 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23303" />
+    <path
+       d="M 398.5795,373.7809 V 351.1037"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23305" />
+  </g>
+  <g
+     id="Layer1006">
+    <path
+       d="m 377.0796,373.7809 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23308" />
+    <path
+       d="M 398.5795,396.4581 V 373.7809"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23310" />
+  </g>
+  <g
+     id="Layer1007">
+    <path
+       d="m 377.0796,396.4581 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23313" />
+    <path
+       d="M 398.5795,419.1352 V 396.4581"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23315" />
+  </g>
+  <g
+     id="Layer1008">
+    <path
+       d="m 377.0796,419.1352 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23318" />
+    <path
+       d="M 398.5795,441.8124 V 419.1352"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23320" />
+  </g>
+  <g
+     id="Layer1009">
+    <path
+       d="m 377.0796,441.8124 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23323" />
+    <path
+       d="M 398.5795,464.4896 V 441.8124"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23325" />
+  </g>
+  <g
+     id="Layer1010">
+    <path
+       d="m 377.0796,464.4896 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23328" />
+    <path
+       d="M 398.5795,487.1667 V 464.4896"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23330" />
+  </g>
+  <g
+     id="Layer1011">
+    <path
+       d="m 377.0796,487.1667 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23333" />
+    <path
+       d="M 398.5795,509.8439 V 487.1667"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23335" />
+  </g>
+  <g
+     id="Layer1012">
+    <path
+       d="m 377.0796,509.8439 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23338" />
+    <path
+       d="M 398.5795,532.5211 V 509.8439"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23340" />
+  </g>
+  <g
+     id="Layer1013">
+    <path
+       d="m 377.0796,532.5211 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23343" />
+    <path
+       d="M 398.5795,555.1982 V 532.5211"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23345" />
+  </g>
+  <g
+     id="Layer1014">
+    <path
+       d="m 377.0796,555.1982 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23348" />
+    <path
+       d="M 398.5795,577.8754 V 555.1982"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23350" />
+  </g>
+  <g
+     id="Layer1015">
+    <path
+       d="m 377.0796,577.8754 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23353" />
+    <path
+       d="M 398.5795,600.5526 V 577.8754"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23355" />
+  </g>
+  <g
+     id="Layer1016">
+    <path
+       d="m 377.0796,600.5526 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23358" />
+    <path
+       d="M 398.5795,623.2297 V 600.5526"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23360" />
+  </g>
+  <g
+     id="Layer1017">
+    <path
+       d="m 377.0796,623.2297 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23363" />
+    <path
+       d="M 398.5795,645.9069 V 623.2297"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23365" />
+  </g>
+  <g
+     id="Layer1018">
+    <path
+       d="m 377.0796,645.9069 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23368" />
+    <path
+       d="M 398.5795,668.5841 V 645.9069"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23370" />
+  </g>
+  <g
+     id="Layer1019">
+    <path
+       d="m 377.0796,668.5841 v 22.6771 h 143.4997 v -22.6771 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23373" />
+    <path
+       d="M 398.5795,691.2612 V 668.5841"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23375" />
+  </g>
+  <g
+     id="Layer1020">
+    <path
+       d="m 377.0796,691.2612 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23378" />
+    <path
+       d="M 398.5795,713.9384 V 691.2612"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23380" />
+  </g>
+  <g
+     id="Layer1021">
+    <path
+       d="m 377.0796,713.9384 v 22.6772 h 143.4997 v -22.6772 z"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23383" />
+    <path
+       d="M 398.5795,736.6156 V 713.9384"
+       style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="path23385" />
+  </g>
+  <text
+     x="380.30261"
+     y="344.45911"
+     id="text23390"><tspan
+       font-family="Arial"
+       font-size="8px"
+       fill="#1b1918"
+       id="tspan23388">Tipo</tspan></text>
+  <text
+     x="522.40991"
+     y="341.99121"
+     id="text23394"><tspan
+       font-family="Arial"
+       font-size="6px"
+       fill="#1b1918"
+       id="tspan23392">Status</tspan></text>
+  <text
+     x="544.71057"
+     y="341.99121"
+     id="text23398"><tspan
+       font-family="Arial"
+       font-size="6px"
+       fill="#1b1918"
+       id="tspan23396">Score</tspan></text>
+  <text
+     x="384.23929"
+     y="388.6994"
+     id="text23402"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#868789"
+       id="tspan23400">A</tspan></text>
+  <text
+     x="384.23929"
+     y="411.3765"
+     id="text23406"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#868789"
+       id="tspan23404">A</tspan></text>
+  <text
+     x="384.23929"
+     y="434.05371"
+     id="text23410"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#868789"
+       id="tspan23408">A</tspan></text>
+  <text
+     x="384.23929"
+     y="456.7309"
+     id="text23414"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#868789"
+       id="tspan23412">A</tspan></text>
+  <text
+     x="384.23929"
+     y="366.02219"
+     id="text23418"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#868789"
+       id="tspan23416">A</tspan></text>
+  <text
+     x="384.70929"
+     y="479.53329"
+     id="text23422"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23420">C</tspan></text>
+  <text
+     x="384.70929"
+     y="502.21051"
+     id="text23426"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23424">C</tspan></text>
+  <text
+     x="384.70929"
+     y="524.8877"
+     id="text23430"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23428">C</tspan></text>
+  <text
+     x="384.70929"
+     y="547.56482"
+     id="text23434"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23432">C</tspan></text>
+  <text
+     x="384.70929"
+     y="570.242"
+     id="text23438"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23436">C</tspan></text>
+  <text
+     x="384.70929"
+     y="592.91913"
+     id="text23442"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23440">C</tspan></text>
+  <text
+     x="384.70929"
+     y="615.59631"
+     id="text23446"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23444">C</tspan></text>
+  <text
+     x="384.70929"
+     y="638.2735"
+     id="text23450"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23448">C</tspan></text>
+  <text
+     x="384.70929"
+     y="660.95062"
+     id="text23454"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23452">C</tspan></text>
+  <text
+     x="384.70929"
+     y="683.62781"
+     id="text23458"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23456">C</tspan></text>
+  <text
+     x="384.70929"
+     y="706.30499"
+     id="text23462"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23460">C</tspan></text>
+  <text
+     x="384.70929"
+     y="728.98212"
+     id="text23466"><tspan
+       font-family="Arial"
+       font-size="10px"
+       fill="#1b1918"
+       id="tspan23464">C</tspan></text>
+  <text
+     x="443.57669"
+     y="344.13901"
+     id="text23470"><tspan
+       font-family="Arial"
+       font-size="12px"
+       fill="#1b1918"
+       id="tspan23468">Nome</tspan></text>
+  <path
+     d="m 377.0796,351.1037 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23472" />
+  <path
+     d="m 520.5793,351.1037 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23474" />
+  <path
+     d="m 520.5793,373.7809 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23476" />
+  <path
+     d="m 520.5793,396.4581 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23478" />
+  <path
+     d="m 520.5793,419.1352 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23480" />
+  <path
+     d="m 520.5793,441.8124 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23482" />
+  <path
+     d="m 520.5793,464.4896 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23484" />
+  <path
+     d="m 520.5793,487.1667 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23486" />
+  <path
+     d="m 520.5793,509.8439 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23488" />
+  <path
+     d="m 520.5793,532.5211 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23490" />
+  <path
+     d="m 520.5793,555.1982 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23492" />
+  <path
+     d="m 520.5793,577.8754 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23494" />
+  <path
+     d="m 520.5793,600.5526 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23496" />
+  <path
+     d="m 520.5793,623.2297 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23498" />
+  <path
+     d="m 520.5793,645.9069 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23500" />
+  <path
+     d="m 520.5793,668.5841 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23502" />
+  <path
+     d="m 520.5793,691.3551 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23504" />
+  <path
+     d="m 520.5793,713.9384 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23506" />
+  <path
+     d="m 520.5793,328.4266 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23508" />
+  <path
+     d="m 542.0792,351.1037 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23510" />
+  <path
+     d="m 542.0792,373.7809 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23512" />
+  <path
+     d="m 542.0792,396.4581 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23514" />
+  <path
+     d="m 542.0792,419.1352 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23516" />
+  <path
+     d="m 542.0792,441.8124 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23518" />
+  <path
+     d="m 542.0792,464.4896 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23520" />
+  <path
+     d="m 542.0792,487.1667 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23522" />
+  <path
+     d="m 542.0792,509.8439 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23524" />
+  <path
+     d="m 542.0792,532.5211 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23526" />
+  <path
+     d="m 542.0792,555.1982 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23528" />
+  <path
+     d="m 542.0792,577.8754 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23530" />
+  <path
+     d="m 542.0792,600.5526 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23532" />
+  <path
+     d="m 542.0792,623.2297 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23534" />
+  <path
+     d="m 542.0792,645.9069 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23536" />
+  <path
+     d="m 542.0792,668.5841 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23538" />
+  <path
+     d="m 542.0792,691.3551 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23540" />
+  <path
+     d="m 542.0792,713.9384 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23542" />
+  <path
+     d="m 542.0792,328.4266 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23544" />
+  <path
+     d="m 377.0796,373.7809 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23546" />
+  <path
+     d="m 377.0796,396.4581 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23548" />
+  <path
+     d="m 377.0796,419.1352 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23550" />
+  <path
+     d="m 377.0796,441.8124 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23552" />
+  <path
+     d="m 377.0796,464.4896 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23554" />
+  <path
+     d="m 377.0796,487.1667 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23556" />
+  <path
+     d="m 377.0796,509.8439 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23558" />
+  <path
+     d="m 377.0796,532.5211 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23560" />
+  <path
+     d="m 377.0796,555.1982 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23562" />
+  <path
+     d="m 377.0796,577.8754 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23564" />
+  <path
+     d="m 377.0796,600.5526 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23566" />
+  <path
+     d="m 377.0796,623.2297 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23568" />
+  <path
+     d="m 377.0796,645.9069 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23570" />
+  <path
+     d="m 377.0796,668.5841 v 22.6771 h 21.4999 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23572" />
+  <path
+     d="m 377.0796,691.2612 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23574" />
+  <path
+     d="m 377.0796,713.9384 v 22.6772 h 21.4999 v -22.6772 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23576" />
+  <path
+     d="m 398.5795,328.4266 v 22.6771 h 121.9998 v -22.6771 z"
+     style="fill:none;stroke:#1b1918;stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path23578" />
+</svg>

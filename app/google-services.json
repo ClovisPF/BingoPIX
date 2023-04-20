@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "82226955168",
+    "firebase_url": "https://bingo-express-5d773.firebaseio.com",
+    "project_id": "bingo-express-5d773",
+    "storage_bucket": "bingo-express-5d773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82226955168:android:5a8e0ac56ddcb7ddae5ac5",
+        "android_client_info": {
+          "package_name": "com.example.bingoexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82226955168-ni4qe1o8gctandl3kgsi8co4qrbanb4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbe0DKV6Fo28hdhNOBsF41-v2HJDY2FGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82226955168-ni4qe1o8gctandl3kgsi8co4qrbanb4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82226955168:android:66aa036072de982dae5ac5",
+        "android_client_info": {
+          "package_name": "com.example.bingopipoca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82226955168-unuirkmqj6o09c97b7sdtf1igfeapscb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bingopipoca",
+            "certificate_hash": "398198ff0db69c4a0ef7e56187349aa5279b926a"
+          }
+        },
+        {
+          "client_id": "82226955168-ni4qe1o8gctandl3kgsi8co4qrbanb4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbe0DKV6Fo28hdhNOBsF41-v2HJDY2FGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82226955168-ni4qe1o8gctandl3kgsi8co4qrbanb4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

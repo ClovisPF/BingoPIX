@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8e8ba"
+    tools:context=".ClienteActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barra_001" />
+
+    <Button
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_close"
+        android:onClick="Finalizer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtClienteLogado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Cliente: "
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/txtSaldoDisponivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Saldo Disponível"
+        app:layout_constraintStart_toStartOf="@+id/txtClienteLogado"
+        app:layout_constraintTop_toBottomOf="@+id/txtClienteLogado" />
+
+    <TextView
+        android:id="@+id/txtCartelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Minhas Cartelas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtSaldoDisponivel" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="340dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/barra_005"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCartelas"
+        app:srcCompat="@drawable/div001" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sorteio Automático"
+        android:textColor="#166216"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aguardando..."
+        android:textColor="#D96438"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor do Prêmio"
+        android:textColor="#D96438"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtHora"
+        app:layout_constraintEnd_toEndOf="@+id/btnMinhasCartelas"
+        app:layout_constraintStart_toStartOf="@+id/btnMinhasCartelas" />
+
+    <TextView
+        android:id="@+id/txtHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço da Cartela"
+        android:textColor="#D96438"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnParticipar"
+        app:layout_constraintStart_toStartOf="@+id/btnParticipar"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <TextView
+        android:id="@+id/txtValorPremio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="#166216"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtData"
+        app:layout_constraintStart_toStartOf="@+id/txtData"
+        app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+    <TextView
+        android:id="@+id/txtValorCartela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="#166216"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtHora"
+        app:layout_constraintStart_toStartOf="@+id/txtHora"
+        app:layout_constraintTop_toBottomOf="@+id/txtHora" />
+
+    <Button
+        android:id="@+id/btnParticipar"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:background="#87D989"
+        android:onClick="ParticiparOnClick"
+        android:text="Quero Participar"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMinhasCartelas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMinhasCartelas"
+        app:layout_constraintTop_toTopOf="@+id/btnMinhasCartelas" />
+
+    <TextView
+        android:id="@+id/txtidKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="0"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Sorteio Nº"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtidKey"
+        app:layout_constraintEnd_toStartOf="@+id/txtidKey"
+        app:layout_constraintTop_toTopOf="@+id/txtidKey" />
+
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:srcCompat="@drawable/img_009" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMinhasCartelas"
+        app:srcCompat="@drawable/barra_005" />
+
+    <TextView
+        android:id="@+id/txtIdKey500P"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Status Sorteio"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtidKey"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/btn50"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_50"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="btn50OnClick"
+        app:layout_constraintEnd_toStartOf="@+id/btn100"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/btn100"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:background="@drawable/btn_100"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="btn100OnClick"
+        app:layout_constraintEnd_toStartOf="@+id/btn250"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn50"
+        app:layout_constraintTop_toTopOf="@+id/btn50" />
+
+    <Button
+        android:id="@+id/btn250"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:background="@drawable/btn_250"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="btn250OnClick"
+        app:layout_constraintEnd_toStartOf="@+id/btn500"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn100"
+        app:layout_constraintTop_toTopOf="@+id/btn100" />
+
+    <Button
+        android:id="@+id/btn500"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:background="@drawable/btn_500"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="btn500OnClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn250"
+        app:layout_constraintTop_toTopOf="@+id/btn250" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Bingo Express - 2020. Todos os direitos reservados."
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="A Sorte está contigo!"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnMinhasCartelas"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        android:background="#87D989"
+        android:onClick="MinhascartelasOnClick"
+        android:text="Gerenciador de Cartelas"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnParticipar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValorPremio" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/icon_proximo"
+        android:onClick="Proximo"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn250"
+        app:srcCompat="@drawable/barra_005" />
+
+    <TextView
+        android:id="@+id/txt50Pinscritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn50"
+        app:layout_constraintStart_toStartOf="@+id/btn50"
+        app:layout_constraintTop_toBottomOf="@+id/btn50" />
+
+    <TextView
+        android:id="@+id/txt100Pinscritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn100"
+        app:layout_constraintStart_toStartOf="@+id/btn100"
+        app:layout_constraintTop_toBottomOf="@+id/btn100" />
+
+    <TextView
+        android:id="@+id/txt250Pinscritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn250"
+        app:layout_constraintStart_toStartOf="@+id/btn250"
+        app:layout_constraintTop_toBottomOf="@+id/btn250" />
+
+    <TextView
+        android:id="@+id/txt500Pinscritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn500"
+        app:layout_constraintStart_toStartOf="@+id/btn500"
+        app:layout_constraintTop_toBottomOf="@+id/btn500" />
+
+    <TextView
+        android:id="@+id/txtP50idKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn50"
+        app:layout_constraintEnd_toStartOf="@+id/btn50"
+        app:layout_constraintTop_toTopOf="@+id/btn50" />
+
+    <TextView
+        android:id="@+id/txtP100idKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn100"
+        app:layout_constraintEnd_toStartOf="@+id/btn100"
+        app:layout_constraintTop_toTopOf="@+id/btn100" />
+
+    <TextView
+        android:id="@+id/txtP250idKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn250"
+        app:layout_constraintEnd_toStartOf="@+id/btn250"
+        app:layout_constraintTop_toTopOf="@+id/btn250" />
+
+    <TextView
+        android:id="@+id/txtP500idKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn500"
+        app:layout_constraintEnd_toStartOf="@+id/btn500"
+        app:layout_constraintTop_toTopOf="@+id/btn500" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
