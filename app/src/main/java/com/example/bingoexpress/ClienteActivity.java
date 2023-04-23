@@ -23,14 +23,10 @@ import com.google.firebase.database.ValueEventListener;
 public class ClienteActivity extends AppCompatActivity {
     public DatabaseReference BD_Raiz;
     public FirebaseUser ClienteLogado;
-
     public TCliente RegCliente = new TCliente();
-
     public TConfigSorteios RegConfigSorteios = new TConfigSorteios();
-
     int kCicle = 1, SorteioAtual_ValorCartela = 0;
     int SorteioAtual_idKey = 1;
-
     String SorteioAtual_idSorteio = null;
 
     @Override
@@ -43,14 +39,11 @@ public class ClienteActivity extends AppCompatActivity {
         final TextView txtCartelas = findViewById(R.id.txtCartelas);
         //------------------------------------------------------------------------------------------
         final TextView txt50Pinscritos = findViewById(R.id.txt50Pinscritos);
-        final TextView txt100Pinscritos = findViewById(R.id.txt100Pinscritos);
-        final TextView txt250Pinscritos = findViewById(R.id.txt250Pinscritos);
-        final TextView txt500Pinscritos = findViewById(R.id.txt500Pinscritos);
+
         //------------------------------------------------------------------------------------------
         final TextView txtP50idKey = findViewById(R.id.txtP50idKey);
         final TextView txtP100idKey = findViewById(R.id.txtP100idKey);
-        final TextView txtP250idKey = findViewById(R.id.txtP250idKey);
-        final TextView txtP500idKey = findViewById(R.id.txtP500idKey);
+
         // ----------------------------------------------------------------------------------------
         final TextView txtidKey = findViewById(R.id.txtidKey);
         //-----------------------------------------------------------------------------------------
@@ -92,13 +85,10 @@ public class ClienteActivity extends AppCompatActivity {
 
                  txtP50idKey.setText(String.valueOf(RegConfigSorteios.p50idKey));
                 txtP100idKey.setText(String.valueOf(RegConfigSorteios.p100idKey));
-                txtP250idKey.setText(String.valueOf(RegConfigSorteios.p250idKey));
-                txtP500idKey.setText(String.valueOf(RegConfigSorteios.p500idKey));
+
 
                 txt50Pinscritos.setText(String.valueOf(RegConfigSorteios.p50Participantes));
-                txt100Pinscritos.setText(String.valueOf(RegConfigSorteios.p100Participantes));
-                txt250Pinscritos.setText(String.valueOf(RegConfigSorteios.p250Participantes));
-                txt500Pinscritos.setText(String.valueOf(RegConfigSorteios.p500Participantes));
+
 
                 txtidKey.setText(txtP50idKey.getText().toString());
 
@@ -112,12 +102,11 @@ public class ClienteActivity extends AppCompatActivity {
 
     }
     public void Finalizar(View view){
-        //ClienteBD.signOut();
+       // ClienteBD.signOut();
         finish();
     }
     public void ParticiparOnClick(View view){
         String idSorteio_Title;
-
 
         if (SorteioAtual_idSorteio.equals("50P")){
             idSorteio_Title = "50 Participantes";
@@ -220,9 +209,6 @@ public class ClienteActivity extends AppCompatActivity {
 
         final TextView txtP50idKey = findViewById(R.id.txtP50idKey);
         final TextView txtP100idKey = findViewById(R.id.txtP100idKey);
-        final TextView txtP250idKey = findViewById(R.id.txtP250idKey);
-        final TextView txtP500idKey = findViewById(R.id.txtP500idKey);
-
         kCicle++;
 
         if (kCicle==1){
@@ -235,20 +221,6 @@ public class ClienteActivity extends AppCompatActivity {
             MostrarSorteio("100P", Integer.parseInt(txtP100idKey.getText().toString()));
             SorteioAtual_idSorteio = "100P";
             SorteioAtual_idKey = Integer.parseInt(txtP100idKey.getText().toString());
-        }
-
-        if (kCicle==3){
-            MostrarSorteio("250P", Integer.parseInt(txtP250idKey.getText().toString()));
-            SorteioAtual_idSorteio = "250P";
-            SorteioAtual_idKey = Integer.parseInt(txtP250idKey.getText().toString());
-
-        }
-
-        if (kCicle==4){
-            MostrarSorteio("500P", Integer.parseInt(txtP500idKey.getText().toString()));
-            SorteioAtual_idSorteio = "500P";
-            SorteioAtual_idKey = Integer.parseInt(txtP500idKey.getText().toString());
-            kCicle = 0;
         }
 
     }
@@ -326,76 +298,6 @@ public class ClienteActivity extends AppCompatActivity {
         //--------------------------------------------------------------------------------------------
 
         msgSorteio100.show();
-    }
-
-    public void btn250OnClick(View view){
-        final TextView txtP250idKey = findViewById(R.id.txtP250idKey);
-        AlertDialog.Builder msgSorteio250 = new AlertDialog.Builder(ClienteActivity.this);
-        msgSorteio250.setTitle("Sorteio com 250 Participantes...");
-        msgSorteio250.setMessage("Olá "+ RegCliente.getNome() +", Este Sorteio (Cartela Cheia) será executado automaticamente quando 250 pessoas efetuarem suas inscrições." +
-                "Para participar, você precisa inscrever uma ou mais Cartelas. Deseja fazer sua inscrição agora ?");
-
-        msgSorteio250.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(),"Preparando Sorteio com 250 Participantes.",Toast.LENGTH_SHORT).show();
-                MostrarSorteio("250P", Integer.parseInt(txtP250idKey.getText().toString()));
-                SorteioAtual_idSorteio = "250P";
-                SorteioAtual_idKey = Integer.parseInt(txtP250idKey.getText().toString());
-                Intent ik = new Intent(getApplicationContext(), EditorCartela.class);
-                ik.putExtra("idSorteio", SorteioAtual_idSorteio);
-                ik.putExtra("idKey", SorteioAtual_idKey);
-                ik.putExtra("vlCartela", SorteioAtual_ValorCartela);
-                startActivity(ik);
-
-                // P250();
-            }
-        });
-
-        msgSorteio250.setNegativeButton("Agora Não", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        //--------------------------------------------------------------------------------------------
-
-        msgSorteio250.show();
-    }
-
-    public void btn500OnClick(View view){
-        final TextView txtP500idKey = findViewById(R.id.txtP500idKey);
-        AlertDialog.Builder msgSorteio500 = new AlertDialog.Builder(ClienteActivity.this);
-        msgSorteio500.setTitle("Sorteio com 500 Participantes...");
-        msgSorteio500.setMessage("Olá "+ RegCliente.getNome() +", Este Sorteio (Cartela Cheia) será executado automaticamente quando 500 pessoas efetuarem suas inscrições." +
-                "Para participar, você precisa inscrever uma ou mais Cartelas. Deseja fazer sua inscrição agora ?");
-
-        msgSorteio500.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(),"Preparando Sorteio com 500 Participantes.",Toast.LENGTH_SHORT).show();
-
-                MostrarSorteio("500P", Integer.parseInt(txtP500idKey.getText().toString()));
-                SorteioAtual_idSorteio = "500P";
-                SorteioAtual_idKey = Integer.parseInt(txtP500idKey.getText().toString());
-                Intent ik = new Intent(getApplicationContext(), EditorCartela.class);
-                ik.putExtra("idSorteio", SorteioAtual_idSorteio);
-                ik.putExtra("idKey", SorteioAtual_idKey);
-                ik.putExtra("vlCartela", SorteioAtual_ValorCartela);
-                startActivity(ik);
-                // P500();
-            }
-        });
-
-        msgSorteio500.setNegativeButton("Agora Não", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        //--------------------------------------------------------------------------------------------
-
-        msgSorteio500.show();
     }
 
     public void MinhascartelasOnClick(View view){

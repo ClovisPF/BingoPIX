@@ -67,8 +67,8 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="2020 - Todos os direitos reservados. By Clóvis P Falcão."
+        android:layout_marginBottom="3dp"
+        android:text="2019 - 2023 Todos os direitos reservados. By Clóvis P Falcão."
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,22 +77,10 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/barra_001" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:onClick="Finalizer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn_close" />
+        app:srcCompat="@drawable/title_001" />
 
     <EditText
         android:id="@+id/edtNome"
@@ -125,15 +113,15 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="80dp"
         android:gravity="center"
-        android:text="Ao preencher este formulário, você será adicionado(a) ao Banco de Dados da Plataforma Bingo Express  - Uma rede de dados particular e exclusivamente Online para Jogos de Bingo."
+        android:text="Ao preencher este formulário, você será incluído(a) no Banco de Dados da Plataforma Bingo PIX  - Um Banco de dados particular e exclusivamente Online para Jogos de Bingo."
         android:textColor="#167616"
         android:textSize="10sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -205,18 +193,18 @@
         android:id="@+id/btnContingente"
         android:layout_width="32dp"
         android:layout_height="12dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
         android:background="#87D989"
         android:text="0"
         android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
-        app:layout_constraintEnd_toStartOf="@+id/imageView15"
-        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="Inscrição Nº"
         android:textSize="8sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnContingente"
@@ -239,7 +227,7 @@
         android:id="@+id/btnCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Finalizer"
+        android:onClick="Finalizar"
         android:text="Cancelar"
         android:textAllCaps="false"
         android:textColor="#167616"

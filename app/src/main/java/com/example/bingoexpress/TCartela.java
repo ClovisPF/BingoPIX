@@ -22,6 +22,7 @@ import java.util.Random;
     String dspB1;
 
     public TCartela() {
+        // constructor - obrigatório
     }
     public int getSaldo() {
         return Saldo;
@@ -36,7 +37,7 @@ import java.util.Random;
     }
     public void AutoCriar(){      //criar cartela aleatoriamente
 
-        int sorteadas = 0;
+        int sorteadas = 0; // contador para Bolas sorteadas
 
             while (sorteadas<5){ // Sortear Família B
               int num = new Random().nextInt(15);
@@ -91,7 +92,7 @@ import java.util.Random;
 
     int i = 0;
 
-        if (Col == 0){ // Família B
+    if (Col == 0){ // Família B
             for (int k=0;k<15;k++){
                 if (this.famB[k] != -1) {
                     this.colunaB[i] = this.famB[k];
@@ -100,7 +101,7 @@ import java.util.Random;
             }
         }
 
-        if (Col == 1){ // Família I
+    if (Col == 1){ // Família I
             for (int k=0;k<15;k++){
                if (this.famI[k] != -1){
                   this.colunaI[i] = this.famI[k];
@@ -109,7 +110,7 @@ import java.util.Random;
             }
         }
 
-        if (Col == 2){ // Família N
+    if (Col == 2){ // Família N
            for (int k=0;k<15;k++){
               if (this.famN[k] != -1){
                 this.colunaN[i] = this.famN[k];
@@ -117,7 +118,6 @@ import java.util.Random;
               }
            }
         }
-
 
     if (Col == 3){ // Família G
         for (int k=0;k<15;k++){

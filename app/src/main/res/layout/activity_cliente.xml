@@ -11,22 +11,22 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="79dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/barra_001" />
+        app:srcCompat="@drawable/title_001" />
 
     <Button
+        android:id="@+id/button13"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/btn_close"
-        android:onClick="Finalizer"
+        android:onClick="Finalizar"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtClienteLogado"
@@ -74,13 +74,12 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:text="Sorteio Automático"
         android:textColor="#166216"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -166,13 +165,12 @@
         android:id="@+id/txtidKey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginBottom="30dp"
         android:text="0"
         android:textSize="8sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView15"
-        app:layout_constraintEnd_toStartOf="@+id/textView15"
-        app:layout_constraintTop_toTopOf="@+id/textView15" />
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
@@ -187,6 +185,7 @@
         app:layout_constraintTop_toTopOf="@+id/txtidKey" />
 
     <ImageView
+        android:id="@+id/imageView15"
         android:layout_width="81dp"
         android:layout_height="45dp"
         android:layout_marginBottom="5dp"
@@ -200,7 +199,7 @@
         android:id="@+id/imageView12"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -227,46 +226,9 @@
         android:background="@drawable/btn_50"
         android:gravity="center_horizontal|center_vertical"
         android:onClick="btn50OnClick"
-        app:layout_constraintEnd_toStartOf="@+id/btn100"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-    <Button
-        android:id="@+id/btn100"
-        android:layout_width="70dp"
-        android:layout_height="36dp"
-        android:background="@drawable/btn_100"
-        android:gravity="center_horizontal|center_vertical"
-        android:onClick="btn100OnClick"
-        app:layout_constraintEnd_toStartOf="@+id/btn250"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn50"
-        app:layout_constraintTop_toTopOf="@+id/btn50" />
-
-    <Button
-        android:id="@+id/btn250"
-        android:layout_width="70dp"
-        android:layout_height="36dp"
-        android:background="@drawable/btn_250"
-        android:gravity="center_horizontal|center_vertical"
-        android:onClick="btn250OnClick"
-        app:layout_constraintEnd_toStartOf="@+id/btn500"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn100"
-        app:layout_constraintTop_toTopOf="@+id/btn100" />
-
-    <Button
-        android:id="@+id/btn500"
-        android:layout_width="70dp"
-        android:layout_height="36dp"
-        android:background="@drawable/btn_500"
-        android:gravity="center_horizontal|center_vertical"
-        android:onClick="btn500OnClick"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn250"
-        app:layout_constraintTop_toTopOf="@+id/btn250" />
 
     <TextView
         android:id="@+id/textView33"
@@ -307,27 +269,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtValorPremio" />
 
-    <Button
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:background="@drawable/icon_proximo"
-        android:onClick="Proximo"
-        app:layout_constraintBottom_toBottomOf="@+id/textView15"
-        app:layout_constraintStart_toEndOf="@+id/textView15"
-        app:layout_constraintTop_toTopOf="@+id/textView15" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="2dp"
-        android:layout_marginTop="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn250"
-        app:srcCompat="@drawable/barra_005" />
+        app:srcCompat="@drawable/barra_005"
+        tools:layout_editor_absoluteY="124dp" />
 
     <TextView
         android:id="@+id/txt50Pinscritos"
@@ -340,42 +290,6 @@
         app:layout_constraintEnd_toEndOf="@+id/btn50"
         app:layout_constraintStart_toStartOf="@+id/btn50"
         app:layout_constraintTop_toBottomOf="@+id/btn50" />
-
-    <TextView
-        android:id="@+id/txt100Pinscritos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="0"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btn100"
-        app:layout_constraintStart_toStartOf="@+id/btn100"
-        app:layout_constraintTop_toBottomOf="@+id/btn100" />
-
-    <TextView
-        android:id="@+id/txt250Pinscritos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="0"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btn250"
-        app:layout_constraintStart_toStartOf="@+id/btn250"
-        app:layout_constraintTop_toBottomOf="@+id/btn250" />
-
-    <TextView
-        android:id="@+id/txt500Pinscritos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="0"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btn500"
-        app:layout_constraintStart_toStartOf="@+id/btn500"
-        app:layout_constraintTop_toBottomOf="@+id/btn500" />
 
     <TextView
         android:id="@+id/txtP50idKey"
@@ -394,39 +308,10 @@
         android:id="@+id/txtP100idKey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
         android:text="0"
         android:textSize="10sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/btn100"
-        app:layout_constraintEnd_toStartOf="@+id/btn100"
-        app:layout_constraintTop_toTopOf="@+id/btn100" />
-
-    <TextView
-        android:id="@+id/txtP250idKey"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:text="0"
-        android:textSize="10sp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/btn250"
-        app:layout_constraintEnd_toStartOf="@+id/btn250"
-        app:layout_constraintTop_toTopOf="@+id/btn250" />
-
-    <TextView
-        android:id="@+id/txtP500idKey"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:text="0"
-        android:textSize="10sp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/btn500"
-        app:layout_constraintEnd_toStartOf="@+id/btn500"
-        app:layout_constraintTop_toTopOf="@+id/btn500" />
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="343dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
